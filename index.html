@@ -14,7 +14,16 @@
     </head>
     <body>
     <script type="text/javascript">
-        window.location.href = "./cv.pdf"
+        var password = prompt("Please enter the captcha \"Hello Kunal\":");
+        if (password === "Hello Kunal") {
+            // Grant access
+            window.location.href = "./cv.pdf";
+        } else {
+            // Redirect to another page
+            window.location.href = "./access-denied.html";
+        } 
     </script>
     </body>
 </html>
+<script type="text/javascript">
+</script>
