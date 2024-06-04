@@ -108,13 +108,13 @@
     {
     }
 
-\newenvironment{joblong}[2]
+\newenvironment{joblong}[3]
     {
     \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \textbf{#1} | #2 & \hfill &  #3 \\[3.75pt]
     \end{tabularx}
     \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=-]
     }
     {
     \end{itemize}
@@ -142,12 +142,12 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Kunal Pahwa} \\[7.5pt]
+\href{https://github.com/ConformalTomb}{\raisebox{-0.05\height}\faGithub\ ConformalTomb} \ $|$ \ 
+\href{https://www.linkedin.com/in/kunal-pahwa}{\raisebox{-0.05\height}\faLinkedin\ kunal-pahwa} \ $|$ \ 
+% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
+\href{mailto:kunalpahwa2708@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ kunalpahwa2708@gmail.com} 
+% \href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -156,20 +156,43 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+Senior Engineer with over 4 years of experience in Full Stack Development. Proficient in Java, React, Python, and .NET. Expertise in designing, developing, and deploying scalable web applications. Strong leadership in project execution, problem-solving, and collaboration. Experienced in mentoring and continuous improvement. Passionate about using advanced technologies to enhance user experiences and meet business objectives.
 
 %Experience
 \section{Work Experience}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
+% \begin{jobshort}{Designation}{Jan 2021 - present}
+% long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
+% \end{jobshort}
 
 
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{The Boston Consulting Group}{Full Stack Engineer}{May 2023 - Present}
+
+\item Worked with high profile clients delivering solutions across Supply chain, Finance \& Taxation Domains.
+\item Managed end-to-end delivery of Solution from Requirements to Client Delivery whilst working with Principals, Consultants \& Case teams.
+\item Developed Highly configurable, rule based User Interface for multiple clients to provide Reactive UI with extremely high flexibility.
+\item Optimized multiple Backend APIs to reduce response time to meet industry thresholds in the units of milliseconds.
+\item Dockerized projects for maximum ease of deployment.
+\item Tested and Benchmarked many GenAI modals like GPT-4, Github Co-Pilot, Llamma-70B, Claude Opus \& AWS CodeWhisperer which proved to critical in deciding which modal to be provided at the organisation level.
+\item Lead a team of engineers through BCG Hackathon on GenAI building application which is to be used throughout the organisation.
+
 \end{joblong}
+
+\begin{joblong}{Accenture Technology}{Senior Software Engineer}{Sept 2020 - April 2023}
+
+\item Designed and Developed the Back-end of a Metaverse Trust and Safety application from Scratch, leveraging Outbox Design Pattern, Kafka based Micro-service Messaging Architecture to ensure Scalability and Application Agility.
+\item Researched and Implemented Kubernetes Event driven Autoscaling (KEDA) built on Apache Kafka in an AKS Cluster.
+\item Researched and Developed an Open Source, Linux native Image processing API which reduced processing time from Approx. 30 minutes to less than 5 seconds without any reduction in Output Quality.
+\item Integrated Azure Form Recognizer, AWS Rekognition, Blob Storage, Async Architecture, Callback APIs, Merge Engine and HTTP/s Retry mechanisms which has enabled High tolerance, Higher resiliency and an increase in AI Data capture Accuracy by 5 times, Making the application much more versatile.
+\item Lead the Migration of the application from Linux On-Prem to Azure Kubernetes Services (AKS), and conducted training for Deployment team on how to support and manage AKS deployments and DevOps Pipelines.
+\item Developed and presented findings and solutions to audiences including senior executives and stakeholders. Highly Recognized by Accenture Leaderships (MDs) and Senior managers.
+
+\end{joblong}
+
+% \begin{joblong}{The Boston Consulting Group}{May 2023 - Present}
+% \item long long line of blah blah that will wrap when the table fills the column width
+% \item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+% \end{joblong}
   
 %Projects
 \section{Projects}
@@ -183,14 +206,13 @@ long long line of blah blah that will wrap when the table fills the column width
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+\begin{tabularx}{\linewidth}{@{}l l X@{}}	
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2016 - 2020 & B.Tech & (Computer Science \& Engineering) \hfill \textbf{Amity University, Noida} \\ 
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+2016 & Class 12th & (Science, Math \& CS) \hfill \textbf{CBSE} \\ 
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
+2014 & Class 10th &  \hfill \textbf{CBSE} \\ 
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
